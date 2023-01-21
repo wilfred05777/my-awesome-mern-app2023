@@ -6,10 +6,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className=" ">
-      <h1 className="text-3xl text-green-600 font-bold underline">
-        Hello world!
-      </h1>
+    <div className="flex">
+      
     </div>
   );
 }
