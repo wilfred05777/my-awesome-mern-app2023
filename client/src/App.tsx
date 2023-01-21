@@ -19,6 +19,7 @@ function App() {
     <div className="flex">
       <SidebarNav />
       <Routes>
+        <Route path="/" element={<Settings />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/media" element={<Media />} />
         <Route path="/audio" element={<Audio />} />

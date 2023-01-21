@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 // icons react-icons
 import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
 import {
@@ -14,16 +14,24 @@ import {
 } from "react-icons/tb";
 
 import "./sidebarnav.scss";
-import Settings from "../../screens/settings/Settings";
 import { Link } from "react-router-dom";
 
 const SidebarNav = () => {
+
+  const [darkToggle, setDarkToggle ] = useState(false);
+
   return (
-    <>
+    <>    
       <div
-        className="fixed top-2 left-0 h-screen w-16 m-0 flex flex-col
-     bg-white-100 text-black-700 shadow-lg align-baseline"
+        className="fixed  left-0 h-screen w-16 m-0 flex flex-col
+     bg-white-100 text-black-700 shadow-lg  "
+    //  dark:bg-gray-900 dark:text-white
       >
+        {/* <label className="toggleDarkBtn">
+        <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />
+        <span className="slideBtnTg round"></span>
+      </label> */}
+
         <Link to="/settings">
           <SideBarIcon icon={<TbSettings size="28" />} iconTitle={"Settings"} />
         </Link>
@@ -64,4 +72,5 @@ const SideBarIcon = ({ icon, iconTitle }: { icon: any; iconTitle: any }) => {
     </>
   );
 };
+
 export default SidebarNav;
