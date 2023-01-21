@@ -3,7 +3,7 @@ import './write.scss'
 
 const Write = () => {
   return (
-    <div>Write</div>
+    <div className='mt-20 ml-24'>Write</div>
   )
 }
 

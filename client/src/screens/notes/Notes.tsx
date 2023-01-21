@@ -3,7 +3,7 @@ import './notes.scss'
 
 const Notes = () => {
   return (
-    <div>Notes</div>
+    <div className='mt-20 ml-24'>Notes</div>
   )
 }
 

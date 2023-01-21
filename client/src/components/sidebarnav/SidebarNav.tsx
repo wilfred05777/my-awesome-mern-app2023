@@ -42,7 +42,7 @@ const SidebarNav = () => {
         <Link to="/notes">
           <SideBarIcon icon={<TbNote size="28" />} iconTitle={"Notes"} />
         </Link>
-        <Link to="/question">
+        <Link to="/records">
           <SideBarIcon icon={<TbVideo size="28" />} iconTitle={"Record"} />
         </Link>
         <Link to="/write">

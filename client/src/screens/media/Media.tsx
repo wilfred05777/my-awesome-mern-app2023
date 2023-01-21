@@ -3,7 +3,7 @@ import './media.scss'
 
 const Media = () => {
   return (
-    <div>Media</div>
+    <div className='mt-20 ml-24'>Media</div>
   )
 }
 

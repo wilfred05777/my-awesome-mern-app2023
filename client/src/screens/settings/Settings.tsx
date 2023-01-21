@@ -4,7 +4,7 @@ import './settings.scss'
 
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div className='mt-20 ml-24'>Settings</div>
   )
 }
 
