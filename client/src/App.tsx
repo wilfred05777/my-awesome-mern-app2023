@@ -18,6 +18,8 @@ function App() {
   return (
     <div className="flex">
       <SidebarNav />
+      
+
       <Routes>
         <Route path="/" element={<Settings />} />
         <Route path="/settings" element={<Settings />} />

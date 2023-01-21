@@ -23,7 +23,7 @@ const SidebarNav = () => {
   return (
     <>    
       <div
-        className="fixed  left-0 h-screen w-16 m-0 flex flex-col
+        className="fixed left-0 h-screen w-20 m-0 pt-4 flex flex-col
      bg-white-100 text-black-700 shadow-lg  "
     //  dark:bg-gray-900 dark:text-white
       >
