@@ -2,7 +2,7 @@ import React from 'react'
 
 const Question = () => {
   return (
-    <div>Question</div>
+    <div className='mt-20 ml-24'>Question</div>
   )
 }
 
