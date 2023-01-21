@@ -64,10 +64,15 @@ const SidebarNav = () => {
   );
 };
 
-const SideBarIcon = ({ icon, iconTitle }: { icon: any; iconTitle: any }) => {
+const SideBarIcon = ({ icon, iconTitle, text="Tool tip " }: { icon: any; iconTitle: any, text: any }) => {
   return (
     <>
-      <div className="sidebar-icon">{icon}</div>
+      <div className="sidebar-icon group">{icon}
+
+        <span className="sidebar-tooltip group-hover:scale-100">
+          {text}
+        </span>
+      </div>
       <span className="sidebar-text">{iconTitle}</span>
     </>
   );
